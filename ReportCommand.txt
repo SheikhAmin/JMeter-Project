@@ -1,0 +1,4 @@
+jmeter -n -t Report40.jmx -l Report40.jtl
+jmeter -g Report40.jtl -o Report40.html
+
+JMeter -n -t banktest.jmx -l JmeterReports/TestReport.csv -e -o JmeterReports/htmlReport/ -j JmeterReports/jmeter.log
